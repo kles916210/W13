@@ -89,7 +89,7 @@ public class Calculator extends JPanel implements ActionListener{
 		}
 		field = new JTextField();
 		field.setEditable(false);
-		field.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+		field.setBorder(BorderFactory.createLineBorder(Color.BLUE));
 		field.setHorizontalAlignment(JTextField.RIGHT);
 		field.setFont(new Font("Arial",Font.PLAIN,24));
 		gbc.gridx=0;
